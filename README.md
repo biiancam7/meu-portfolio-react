@@ -1,16 +1,51 @@
-# React + Vite
+# 🚀 meu-portfolio-react - Bianca M.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o portfólio profissional de Bianca M., construído utilizando **React (Vite)** e seguindo princípios de Design System (CSS). O objetivo é demonstrar proficiência em UX/UI e Desenvolvimento Front-end.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
 
-## React Compiler
+* **Framework:** React (Vite)
+* **Linguagem:** JavaScript (JSX)
+* **Estilização:** CSS Puro (Componentização e Responsividade)
+* **Versionamento:** Git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💻 Desenvolvimento Local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para rodar o projeto localmente, siga os passos abaixo:
+
+1.  **Clone o Repositório:**
+    ```bash
+    git clone [https://github.com/biiancam7/meu-portfolio-react.git](https://github.com/biiancam7/meu-portfolio-react.git)
+    cd meu-portfolio-react
+    ```
+2.  **Instale as Dependências:**
+    ```bash
+    npm install
+    ```
+3.  **Inicie o Servidor de Desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+    O projeto estará disponível em `http://localhost:5173/`.
+
+---
+
+## 💾 Comandos Essenciais do Git (Fluxo de Trabalho)
+
+Este é o fluxo que você deve seguir para **salvar suas alterações e subir para o GitHub**:
+
+| Ação | Comando | Propósito |
+| :--- | :--- | :--- |
+| **1. Adicionar** | `git add .` | Prepara todos os arquivos modificados para o commit. |
+| **2. Commitar** | `git commit -m "feat: Descreva sua alteração aqui"` | Cria o ponto de salvamento. Use `feat:` para novas funcionalidades ou `fix:` para correções. |
+| **3. Enviar** | `git push origin main` | Sincroniza o código com o repositório principal no GitHub. |
+
+**Exemplo de uso:**
+```bash
+git add .
+git commit -m "feat: Finalizado o componente Hero Section"
+git push origin main
